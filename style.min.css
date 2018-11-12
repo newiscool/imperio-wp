@@ -1,0 +1,39 @@
+.main-header{height:180px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;background:-webkit-gradient(linear,left top,left bottom,from(rgba(64,0,0,0.7)),to(rgba(64,0,0,0.1)));background:linear-gradient(rgba(64,0,0,0.7),rgba(64,0,0,0.1));position:fixed;top:0;right:0;left:0;-webkit-transition:background 500ms ease-out;transition:background 500ms ease-out;z-index:1000}
+.wrap-content_home{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap}
+.wrap-content_home .content_logo{width:100%;text-align:center}
+.wrap-content_home .wrapper{-webkit-box-flex:0;-ms-flex:0 0 100%;flex:0 0 100%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:stretch;-ms-flex-align:stretch;align-items:stretch;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-ms-flex-wrap:wrap;flex-wrap:wrap}
+.wrap-content_home .wrapper .menu_search{position:relative;-webkit-box-flex:0;-ms-flex:0 0 70%;flex:0 0 70%;height:50px}
+.wrap-content_home .wrapper .menu_search .main-menu{position:relative;width:100%}
+.wrap-content_home .wrapper .menu_search .main-menu .main-menu-list{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}
+.wrap-content_home .wrapper .menu_search .main-menu .main-menu-list li a{color:#fff;font-size:12px;text-transform:uppercase}
+div#page{margin-top:-180px}
+.banner-secundarios .slick-list{height:450px !important}
+.banner-secundarios .slick-list .rss-inner-slider-item{height:450px !important}
+.produtos-list .slick-list{height:450px !important}
+.produtos-list .slick-list .rss-inner-slider-item{height:450px !important}
+.rss-banner-caption{color:#fff}
+.dobra2{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;padding:30px 0}
+.dobra2 .nossos-servicos{max-width:50%}
+.dobra2 .nossos-servicos .titulo-brand{text-transform:uppercase;color:#d7a81b !important}
+.dobra2 .nossos-servicos .titulo-sessao{text-transform:uppercase;color:#000}
+.dobra2 .nossos-servicos .titulo-sessao:after{content:'';width:50px;height:5px;background:#d7a81b;position:relative;display:block;margin:5px 0}
+.carrossel-produtos .produtos-list .rss-banner-description{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;font-size:40px;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;color:#d7a81b !important}
+.carrossel-produtos .produtos-list .rss-banner-description figure img{max-width:80px}
+.rss-banner-url a{width:50%;background:transparent !important;border:3px solid;color:#d7a81b !important;font-size:20px;text-transform:uppercase;border-radius:3px}
+.adress-block{text-align:left;padding:0;font-size:18px}
+span.titulo-sessao{display:block;width:100%;text-align:left;margin:0;font-size:20px}
+@media(min-width:991px){span.titulo-sessao{display:inline-block;padding:0 0 10px;z-index:1;font-size:30px;font-weight:600;line-height:30px;background:white}
+}footer{background:#d8a71b}
+footer .content_footer{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;max-width:1140px;position:relative;left:50%;-webkit-transform:translatex(-50%);transform:translatex(-50%)}
+footer .content_footer .footer-box .footer-block{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}
+footer .content_footer .footer-box .footer-block p{margin:0}
+footer .content_footer .footer-box .footer-block .televendas .text{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}
+footer .content_footer .footer-box .footer-block .televendas .text p{margin:0}
+footer .content_footer .footer-box .footer-block .footer-menu h2{font-weight:600;margin:0}
+footer .content_footer .footer-box .footer-block .footer-menu h2 .footer-menu-list{position:relative}
+footer .content_footer .footer-box .footer-block .footer-menu h2 .footer-menu-list .menu-item{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;height:20px}
+footer .content_footer .footer-box .footer-block .footer-menu h2 .footer-menu-list .menu-item a{font-weight:400;color:#fff}
+.footer-social{max-width:150px;width:100%}
+.footer-social ul{padding:0}
+ul{list-style:none}
+.container:after,.container:before,.row:after,.row:before{display:none}

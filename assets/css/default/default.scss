@@ -1,0 +1,9 @@
+ul{
+  list-style: none;
+}
+.container,.row{
+  &:after,
+  &:before{
+    display: none
+  }
+}
