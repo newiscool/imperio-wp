@@ -1,5 +1,21 @@
 footer{
-    background: #d8a71b;
+    background: #e9a800;
+    padding: 50px 0 20px;
+    position: relative;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    .svg__wrapper{
+        position: absolute;
+        top: -135px;
+        left: 10%;
+        svg{
+            fill: #e9a800;
+            width: 200px;
+            height: 200px;
+        }
+    }
     .content_footer {
         display: flex;
         flex-wrap: wrap;
@@ -8,27 +24,27 @@ footer{
         position: relative;
         left: 50%;
         transform: translatex(-50%);
+        width:100%;
             .content_logo{}
 
             .footer-box{
+                h2{
+                    font-size: 15px;
+                    font-weight: 700;
+                    color: #fff;
+                    margin: 0;
+                }
                 .footer-block{
                     display: flex;
                     align-items: center;
                     justify-content: space-between;
+                    color: #fff;
                     p{
                         margin: 0;
                     }
-                    .televendas{
-                        .text{
-                            display: flex;
-                            align-items: center;
-                            justify-content: space-between;
-                            p{
-                                margin: 0;
-                            }
-                        }
-                    }
+             
                     .footer-menu{
+                        margin: 20px 0px;
                         h2{
                             font-weight: 600;
                             margin: 0;
@@ -48,16 +64,62 @@ footer{
                     }
                 }
             }
-          
-            
+        .televendas{
+            .text{
+                color: #fff;
+                display: flex;
+                align-items: center;
+                  small{
+                      margin-right: 5px;
+                  }
+                }
+            }
+        }
+    }
+    .menu-menu-1-container{
+        .footer-menu-list{
+            padding: 0;
+            .menu-item{
+                a{
+                    color: #fff;
+                }
+            }
         }
     }
 
-    .footer-social{
+    .footer_social{
         max-width: 150px;
         width: 100%;
-        ul{
+        h2{
+            font-size: 15px;
+            font-weight: 700;
+            color: #fff;
+        }
+        .social_list{
             padding: 0;
+            position: relative;
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            li {
+                display: inline-flex;
+                width: 75px;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: center;
+                height: 60px;
+            }
         }
     }
-    .likebox{}
+    .likebox {
+        max-width: 300px;
+        width: 100%;
+    }
+.adress-block{
+    text-align: center;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 700;
+    width:100%;
+}

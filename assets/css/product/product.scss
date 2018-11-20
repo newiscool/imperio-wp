@@ -1,0 +1,13 @@
+#page-product{
+    margin-top:180px;
+        #main {
+        width: 100%;
+            .productlist-row {
+            display: flex;
+            justify-content: space-between;
+             .list-image img {
+            width: 100%;
+            }
+        }
+    }
+}

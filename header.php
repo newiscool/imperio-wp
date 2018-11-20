@@ -59,8 +59,10 @@
 ?>
 </head>
 <body <?php body_class(); ?>>
+<div class="hidden" hidden>
+  <?php get_template_part( 'img/sprite.svg' ); ?>
+</div>
 	<div id="fb-root"></div>
-		<?php get_template_part('snippets/full-search'); ?>
 		<header class="main-header" role="navigation" id="main-header">
 			<div class="header-bottom">
 				<div class="container">
@@ -93,9 +95,6 @@
 										'container'         => 'div',
 										'menu_class'        => 'main-menu-list'
 									));	?>
-								</div>
-								<div class="search-trigger" style="float: right">
-									<?php echo get_theme_mod('header_bottom_search_icon');?>
 								</div>
 							</div>
 						</div>

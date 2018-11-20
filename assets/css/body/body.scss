@@ -1,11 +1,27 @@
 div#page {
-    margin-top: -180px;
+    margin-top: 180px;
+    position:relative;
+    .dobra_1 {
+        margin-top: -180px;
+    }
 }
 .banner-secundarios{
     .slick-list{
         height:450px !important;
         .rss-inner-slider-item{
             height:450px !important;
+            .rss-banner-caption{
+                .rss-banner-title{
+                    font-size: 20px;
+                    margin: 0;
+                }
+                .rss-banner-description{
+                    font-size: 35px;
+                    line-height: normal;
+                    font-weight: 600;
+                    
+                }
+            }
         }
     }
 }
@@ -24,9 +40,10 @@ div#page {
 .dobra2{
     display: flex;
     align-items: center;
-    padding: 30px 0;
+    padding: 30px 0 100px;
+    max-width: 970px;
     .nossos-servicos{
-        max-width: 50%;
+        flex: 0 0 55%;
         .titulo-brand{
             text-transform: uppercase;
             color: #d7a81b !important;
@@ -43,6 +60,12 @@ div#page {
                 display: block;
                 margin: 5px 0;
             }
+        }
+    }
+    .static-image{
+        padding: 30px;
+        img{
+            max-width: 100%;
         }
     }
 }

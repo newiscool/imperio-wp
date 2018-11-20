@@ -46,6 +46,12 @@ $gplusUrl 		=	get_theme_mod('gplus_url');
 $gplusIcon 		=	get_theme_mod('gplus_icon');
 ?>
 <footer class="footer">
+	<div class="svg__wrapper svg__search">
+		<svg shape-rendering="geometricPrecision">
+		<use xlink:href="<?php echo is_customize_preview() ? esc_url( get_template_directory_uri() . '/img/sprite.svg' ) : '' ; ?>#icon-arvore">"></use>
+		</svg>
+	</div>
+
 	<div class="content_footer">
 		<div class="content_logo">
 			<div class="main-logo">
@@ -95,25 +101,23 @@ $gplusIcon 		=	get_theme_mod('gplus_icon');
 				</div>
 			<?php endif; ?>
 
-			<?php if ($tel1) :?>
-				<div class="televendas">
+			<div class="televendas">
+				<?php if ($tel1) :?>
 					<?php echo get_theme_mod('tel_1_icon');?>
 					<div class="text">
 						<?php if($tel1Title):?><small><?php echo ($tel1Title); ?></small><?php endif;?>
 						<strong><?php echo ($tel1); ?></strong>
 					</div>
-				</div>
-			<?php endif; ?>
-
-			<?php if ($tel2) :?>
-				<div class="televendas">
+				<?php endif; ?>
+				<?php if ($tel2) :?>	
 					<?php echo get_theme_mod('tel_1_icon');?>
 					<div class="text">
 						<?php if($tel2Title):?><small><?php echo ($tel2Title); ?></small><?php endif;?>
 						<strong><?php echo ($tel2); ?></strong>
 					</div>
-				</div>
-			<?php endif; ?>
+				<?php endif; ?>
+			</div>
+
 			<div class="footer-menu">
 				<h2>Institucional</h2>
 				<?php wp_nav_menu( array(
@@ -126,9 +130,8 @@ $gplusIcon 		=	get_theme_mod('gplus_icon');
 			</div>
 		</div>
 
-	
-
 		<div class="footer_social">
+			<h2>Siga a Império Lazer</h2>
 			<ul class="social_list">
 				<?php if ($facebookUrl) :?>
 					<li><a href="<?php echo($facebookUrl) ?>" target="_blank"><?php echo($facebookIcon) ?></a></li>
@@ -153,8 +156,18 @@ $gplusIcon 		=	get_theme_mod('gplus_icon');
 
 		<?php if(get_theme_mod('facebook_url')):?>
 			<div class="likebox">
-				<div class="fb-page" data-href="<?php echo get_theme_mod( 'facebook_url' ); ?>" data-small-header="true" data-adapt-container-width="true" data-width="1000"  data-hide-cover="true" data-show-facepile="true"><blockquote cite="<?php echo get_theme_mod( 'facebook_url' ); ?>" class="fb-xfbml-parse-ignore"><a href="<?php echo get_theme_mod( 'facebook_url' ); ?>">Stra Medical</a></blockquote></div>
+				<div class="fb-page" 
+					data-href="<?php echo get_theme_mod( 'facebook_url' ); ?>" 
+					data-small-header="true"  
+					data-width="300"  
+					data-hide-cover="false" 
+					data-show-facepile="true">
+					<blockquote cite="<?php echo get_theme_mod( 'facebook_url' ); ?>" class="fb-xfbml-parse-ignore">
+						<a href="<?php echo get_theme_mod( 'facebook_url' ); ?>"></a>
+					</blockquote>
+				</div>
 			</div>
+			
 		<?php endif;?>
 	</div>
 	<div class="footer-ressalva">

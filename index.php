@@ -42,7 +42,7 @@ get_header(); ?>
 			<span class="titulo-sessao">O que fazemos</span>
 			<span class="texto-sobre">
 				<?php if ($about) :?>
-					<div class="adress-block">
+					<div class="adress-block_text">
 						<?php if($about) :?>
 							<?php echo ($about);?>
 						<?php endif ;?>
@@ -51,7 +51,7 @@ get_header(); ?>
 			</span>
 		</div>
 		<?php $template_directory = get_template_directory_uri(); ?>
-		<div class="static-image col-md-5 hidden-xs hidden-sm">
+		<div class="static-image hidden-xs hidden-sm">
 			<figure>
 				<img src="<?php echo $template_directory;?>/img/staticimg.jpg"/>
 			</figure>
@@ -72,7 +72,7 @@ get_header(); ?>
 			<span class="titulo-sessao">Conceito</span>
 			<span class="texto-sobre">
 				<?php if ($conceito) :?>
-					<div class="adress-block">
+					<div class="adress-block_text">
 						<?php if($conceito) :?>
 							<?php echo ($conceito);?>
 						<?php endif ;?>
@@ -81,7 +81,7 @@ get_header(); ?>
 			</span>
 		</div>
 		<?php $template_directory = get_template_directory_uri(); ?>
-		<div class="static-image col-md-5 hidden-xs hidden-sm">
+		<div class="static-image hidden-xs hidden-sm">
 			<figure>
 				<img src="<?php echo $template_directory;?>/img/staticimg.jpg"/>
 			</figure>
@@ -90,3 +90,4 @@ get_header(); ?>
 
 	</div><!-- #page -->
 	<?php get_footer(); ?>
+	
